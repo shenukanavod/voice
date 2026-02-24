@@ -1,0 +1,59 @@
+# Core ML/DL frameworks
+torch>=2.0.0
+torchaudio>=2.0.0
+tensorflow>=2.13.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+pyaudio>=0.2.11
+# webrtcvad>=2.0.10  # Requires C++ build tools - install separately if needed
+
+# Feature extraction and signal processing
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web framework and API
+fastapi>=0.100.0
+uvicorn>=0.23.0
+websockets>=11.0.0
+python-multipart>=0.0.6
+flask>=2.3.0
+flask-cors>=4.0.0
+requests>=2.31.0
+
+# Security and encryption
+cryptography>=41.0.0
+bcrypt>=4.0.0
+pyjwt>=2.8.0
+
+# Database and storage
+sqlalchemy>=2.0.0
+
+# Speaker diarization
+pyannote.audio>=3.1.0
+speechbrain>=0.5.15
+
+# Anti-spoofing
+# resemblyzer>=0.1.1  # Depends on webrtcvad which requires C++ build tools
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+click>=8.1.0
+tqdm>=4.65.0
+joblib>=1.3.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+pre-commit>=3.3.0
